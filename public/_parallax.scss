@@ -1,0 +1,10 @@
+.parallax {
+  width: 100%;
+  height: 70vh;
+  background-image: url(../img/code.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  --webkit-filter: brightness(0.8);
+}

@@ -1,0 +1,70 @@
+.navbar {
+  background-color: $riptide;
+  display: flex;
+  justify-content: space-between;
+
+  img {
+    width: 12rem;
+  }
+
+  &__btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    margin-top: 1.5rem;
+
+    &--burguer {
+      width: 5rem;
+      height: 0.6rem;
+      background: #ffff;
+      border-radius: 0.5rem;
+
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        width: 5rem;
+        height: 0.6rem;
+        background: #ffff;
+        border-radius: 0.5rem;
+      }
+
+      &::before {
+        transform: translateY(-1.6rem);
+      }
+
+      &::after {
+        transform: translateY(1.6rem);
+      }
+    }
+    @media (min-width: 769px) {
+      display: none;
+    }
+  }
+
+  &__menu {
+    display: none;
+
+    @media (min-width: 769px) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 3rem;
+    }
+
+    &--links {
+      color: #ffff;
+      margin-right: 3rem;
+
+      &:hover {
+        color: #000;
+        transition: all 0.5s ease-in-out;
+      }
+    }
+  }
+}

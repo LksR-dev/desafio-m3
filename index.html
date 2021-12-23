@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-----STYLE LINK----->
+    <link rel="stylesheet" href="/public/styles.css" />
+
+    <!-----FONTS----->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Lucas Ruiz</title>
+  </head>
+  <body>
+    <!--Nav Section-->
+    <nav class="navbar">
+      <a href="#" class="navbar__logo">
+        <img src="/img/logo1.png"  alt="Logo" />
+      </a>
+      <div class="navbar__btn">
+        <div class="navbar__btn--burguer"></div>
+      </div>
+      <div class="navbar__menu">
+        <a href="#" class="navbar__menu--links">Quien soy</a>
+        <a href="#" class="navbar__menu--links">Mis servicios</a>
+        <a href="#" class="navbar__menu--links">Contactar</a>
+      </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="container">
+      <h1>Bienvenidxs 
+        <br>a mi site</br></h1>
+      <div class="user">
+        <img src="/img/user.png" alt="user" />
+      </div>
+    </div>
+
+    <!--About Me-->
+    <section class="about">
+      <div class="about__me">
+        <h2>Sobre mi</h2>
+        <p>Hola! Soy Lucas, vivo en Tucumán, Argentina. Soy desarrollador frontend, me gusta acompañar las horas programando con un buen café y música. Actualmente estudiando la carrera de Apx, en camino a ser un desarrollador fullstack.</p>
+      </div>
+      <div class="about__me--i">
+        <img src="/img/check.svg" alt="Check">
+      </div>
+    </section>
+
+    <!----Parallax------>
+    <div class="parallax">
+    </div>
+
+    <!--Servicios-->
+    <h2 class="title">Mis servicios</h2>
+    <section class="servicios">
+      <!----Card Uno---->
+      <div class="servicios__card">
+        <div class="servicios__card--top">
+          <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-web-design-responsive-web-design-justicon-lineal-color-justicon-1.png"/>
+        </div>
+        <div class="servicios__card--bot">
+          <h3>Desarrollo Web</h3>
+          <p>Realizo sitios webs con HTML, CSS, SASS, Javascript y Typecript.</p>
+        </div>
+      </div>
+      <!----Card Dos---->
+      <div class="servicios__card">
+        <div class="servicios__card--top">
+          <img src="https://img.icons8.com/external-inipagistudio-mixed-inipagistudio/64/000000/external-flowers-bee-farming-inipagistudio-mixed-inipagistudio.png"/>
+        </div>
+        <div class="servicios__card--bot">
+          <h3>Jardineria</h3>
+          <p>Corto pasto a domicilio y juego a juliana jardinera.</p>
+        </div>
+      </div>
+      <!----Card Tres ---->
+      <div class="servicios__card">
+        <div class="servicios__card--top">
+          <img src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-wine-thanksgiving-justicon-lineal-color-justicon.png"/>
+        </div>
+        <div class="servicios__card--bot">
+          <h3>Sommelier de vino</h3>
+          <p>No soy sommelier pero pruebo vinos.</p>
+        </div>
+      </div>
+    </section>
+
+    <!----Forms------>
+    <section class="form">
+      <div class="form__title">
+        <h3>Escribime</h3>
+      </div>
+
+      <div class="form__campos">
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Tu nombre">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Tu email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea name="mensaje" id="mensaje" placeholder="Deja aquí tu mensaje"></textarea>
+      </div>
+
+      <button class="btn" type="submit">Enviar</button>
+    </section>
+
+    <!---Footer-->
+    <section class="footer">
+      <div>
+      <img class="footer_logo" src="img/logo1.png" alt="Logo">
+        <p>Derechos reservados etc &#169</p>
+      </div>
+      
+      <div class="social">
+        <div class="social__git">
+          <a href="https://github.com/LksR-dev">
+            <img src="https://img.icons8.com/ios-glyphs/50/000000/github.png"/>
+            <label class="parrafo" for="github">Github</label>
+          </a>
+        </div>
+
+        <div class="social__insta">
+          <a href="https://www.instagram.com/_lucassruiz/">
+            <img  src="https://img.icons8.com/material-outlined/30/000000/  instagram-new.png"/>
+            <label class="parrafo" for="instagram">Instagram</label>
+          </a>
+        </div>
+
+        <div class="social__linkedin">
+          <a href="https://www.linkedin.com/in/lucas-ruiz-32510621a/">
+            <img src="https://img.icons8.com/material-outlined/24/000000/linkedin.png"/>
+            <label class="parrafo" for="linkedin">Linkedin</label>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

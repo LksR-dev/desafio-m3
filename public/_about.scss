@@ -1,0 +1,39 @@
+.about {
+  background-color: $junglegreen;
+  max-width: 100%;
+  height: 60rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: 769px) {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  h2 {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  &__me {
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin: 0 2rem 2rem;
+
+    @media (min-width: 769px) {
+      order: 1;
+      width: 40%;
+      font-size: 1.6rem;
+      margin-left: 4rem;
+    }
+  }
+
+  @media (min-width: 769px) {
+    img {
+      width: 20rem;
+    }
+  }
+}
